@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title title="Multiple Timers Alarm App">Multiple Timers Alarm App</title>
+    <link rel="icon" href="./alarm-icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="alarm-tone" src="./audio/RedmiK20.mp3" controls></audio>
+    <div class="main-container" id="main-container">
+        <div>
+            <p id="heading">Multiple Timers App</p>
+        </div>
+        <div id="timer-div" class="timer-div">
+            <div class="inside-set-time-container gapClass timer-box">
+                <p id="set-time">Set Time :</p>
+                <div id="set-timer" class="inside-set-time-container">
+                    <p id="hour" title="hh" contenteditable="true">hh</p>
+                    <p>:</p>
+                    <p id="min" title="mm" contenteditable="true">mm</p>
+                    <p>:</p>
+                    <p id="sec" title="ss" contenteditable="true">ss</p>
+                </div>
+                <div id="set-btn">Set</div>
+            </div>
+        </div>
+        <div id="current-timers-btn">Current Timers</div>
+
+        <div id="timers-list" class="main-container gapClass">
+            <div id="current-timers">You have no timers currently!</div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

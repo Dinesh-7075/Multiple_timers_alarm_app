@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #1d1d23;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.timer-box {
+  background-color: #34344a;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timer-div {
+  border-radius: 5px;
+  padding: 1rem;
+  background-color: #34344a;
+  scale: 1;
+}
+
+#main-container {
+  padding: 1rem;
+  gap: 2rem;
+}
+
+#heading {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#set-timer {
+  justify-content: space-between;
+}
+
+#set-timer p {
+    background-color: #34344a;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.timer-div-finished {
+    background-color: #f0f757;
+    border-radius: 5px;
+    padding: 1rem;
+    scale:1.2rem;
+}
+.timer-div-finished p {
+    background-color: #f0f757;
+    color:black;
+    font-weight: 450;
+}
+
+#time-interval-active p {
+  background-color: #34344a;
+  color: white;
+  padding-left: 1rem;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+#set-timer #hour,
+#set-timer #min,
+#set-timer #sec {
+  text-decoration-line: underline;
+}
+
+#time-interval-active #hour,
+#time-interval-active #min,
+#time-interval-active #sec {
+  text-decoration-line: none;
+  font-size: 13px;
+}
+
+#current-timers-btn {
+    font-size: 13px;
+    background-color: #46464c;
+    border-radius: 50px;
+    padding: 0.5rem 3.5rem;
+    font-weight: 500;
+    scale: 1.2;
+}
+
+#current-timers {
+  font-size: 13px;
+  font-weight: 400;
+  scale: 1.06;
+}
+
+#set-time {
+    background-color: #34344a;
+    font-size: 13px;
+}
+
+#set-btn {
+  background-color: #f0f757;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 26px;
+  padding: 0.3rem 1.1rem;
+  cursor: pointer;
+}
+
+#stop-btn-finished {
+  background-color: #34344a;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: 26px;
+  padding: 0.4rem 1.2rem;
+  cursor: pointer;
+}
+
+.timer-box-finished {
+  background-color: #f0f757;
+}
+
+#set-time-finished {
+  background-color: #f0f757;
+  color: #f0f757;
+}
+
+.gapClass {
+  gap: 2rem;
+}
+
+.inside-set-time-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#hour, #min, #sec {
+    width:30px;
+    border:none;
+    background:#34344a;
+    outline: none;
+    font-size:16px;
+}
